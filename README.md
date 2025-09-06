@@ -1,4 +1,4 @@
-###Oracle PL/SQL Data Migration & Mapping Framework
+### Oracle PL/SQL Data Migration & Mapping Framework
 📌 Overview
 
 This repository contains PL/SQL migration scripts, mapping logic, and automation templates developed for large-scale healthcare and public-sector data modernization projects.
@@ -16,7 +16,7 @@ Error handling with DBMS_ERRLOG and exception logging.
 
 Reference/junction table lookups (e.g., race, teeth_type, relationship_type) to satisfy FK constraints.
 
-##⚙️ Key Features
+## ⚙️ Key Features
 
 Assessment-driven migration: Parent-child table relationships (ASSESSMENT → CONTACT, DIAGNOSIS, SKILLED_SERVICE, etc.)
 
@@ -28,7 +28,7 @@ Auditability: Each target table has corresponding audit triggers and audit table
 
 Performance optimization: Use of bulk MERGE, commit counters, and cursor-based loops where required.
 
-##🏗️ Technologies Used
+## 🏗️ Technologies Used
 
 Languages: Oracle PL/SQL, SQL
 
